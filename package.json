@@ -1,0 +1,31 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTful todoListApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pohyk123/RESTfulAPI.git"
+  },
+  "keywords": [
+    "RESTful"
+  ],
+  "author": "Yong Keat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pohyk123/RESTfulAPI/issues"
+  },
+  "homepage": "https://github.com/pohyk123/RESTfulAPI#readme",
+  "devDependencies": {
+    "nodemon": "^1.15.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "git": "^0.1.5",
+    "mongoose": "^5.0.6"
+  }
+}
